@@ -3,7 +3,7 @@ import {
 } from 'react';
 
 
-const BurgerMenuKeyPressHandler = (event: KeyboardEvent, isVisible: any, toggle: any) => {
+const BurgerMenuKeyPressHandler = (event: KeyboardEvent, isVisible: boolean, toggle: Function) => {
 
   switch (event.key) {
     case 'Enter':
